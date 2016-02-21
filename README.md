@@ -81,3 +81,7 @@ ps | grep app
 Kill <process id>
 ./tp.sh restart; ./driver.sh restart
 ```
+
+## All Right Reserved to SKT
+
+https://github.com/SKT-ThingPlug/thingplug-oshw-kit
