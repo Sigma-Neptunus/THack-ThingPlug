@@ -1,0 +1,122 @@
+{
+  "Gateway": {
+    "name": "T2_Neptunus"
+  },
+  "Server": {
+    "APIKEY": "60uUg-q1jofCv81G3g74qtfZ7bc="
+  },
+  "Sensors": {
+    "0200864ec36b-0-temp": {
+      "network": "jsonrpc",
+      "driverName": "jsonrpcSensor",
+      "model": "jsonrpcTemp",
+      "type": "temperature",
+      "category": "sensor",
+      "name": "temperature",
+      "address": "0",
+      "options": {},
+      "deviceId": "0200864ec36b-0",
+      "owner": "0200864ec36b",
+      "mtime": 1456073524138,
+      "ctime": 1456073524138,
+      "id": "0200864ec36b-0-temp"
+    },
+    "0200864ec36b-0-button": {
+      "network": "jsonrpc",
+      "driverName": "jsonrpcSensor",
+      "model": "jsonrpcDi",
+      "type": "onoff",
+      "category": "sensor",
+      "name": "button",
+      "address": "0",
+      "options": {
+        "notification": "true"
+      },
+      "deviceId": "0200864ec36b-0",
+      "owner": "0200864ec36b",
+      "mtime": 1456073524143,
+      "ctime": 1456073524143,
+      "id": "0200864ec36b-0-button"
+    },
+    "0200864ec36b-0-buzz": {
+      "network": "jsonrpc",
+      "driverName": "jsonrpcActuator",
+      "model": "jsonrpcDo",
+      "type": "powerSwitch",
+      "category": "actuator",
+      "name": "buzzer",
+      "address": "0",
+      "options": {},
+      "deviceId": "0200864ec36b-0",
+      "owner": "0200864ec36b",
+      "mtime": 1456073524144,
+      "ctime": 1456073524144,
+      "id": "0200864ec36b-0-buzz"
+    },
+    "0200864ec36b-0-rotary": {
+      "network": "jsonrpc",
+      "driverName": "jsonrpcSensor",
+      "model": "jsonrpcRotaryAngle",
+      "type": "rotaryAngle",
+      "category": "sensor",
+      "name": "rotary",
+      "address": "0",
+      "options": {},
+      "deviceId": "0200864ec36b-0",
+      "owner": "0200864ec36b",
+      "mtime": 1456073524145,
+      "ctime": 1456073524145,
+      "id": "0200864ec36b-0-rotary"
+    },
+    "0200864ec36b-0-light": {
+      "network": "jsonrpc",
+      "driverName": "jsonrpcSensor",
+      "model": "jsonrpcLight",
+      "type": "light",
+      "category": "sensor",
+      "name": "light",
+      "address": "0",
+      "options": {},
+      "deviceId": "0200864ec36b-0",
+      "owner": "0200864ec36b",
+      "mtime": 1456073524351,
+      "ctime": 1456073524351,
+      "id": "0200864ec36b-0-light"
+    },
+    "0200864ec36b-0-touch": {
+      "network": "jsonrpc",
+      "driverName": "jsonrpcSensor",
+      "model": "jsonrpcDi",
+      "type": "onoff",
+      "category": "sensor",
+      "name": "touch",
+      "address": "0",
+      "options": {
+        "notification": "true"
+      },
+      "deviceId": "0200864ec36b-0",
+      "owner": "0200864ec36b",
+      "mtime": 1456073524950,
+      "ctime": 1456073524950,
+      "id": "0200864ec36b-0-touch"
+    },
+    "0200864ec36b-0-led": {
+      "network": "jsonrpc",
+      "driverName": "jsonrpcActuator",
+      "model": "jsonrpcDo",
+      "type": "powerSwitch",
+      "category": "actuator",
+      "name": "led",
+      "address": "0",
+      "options": {},
+      "deviceId": "0200864ec36b-0",
+      "owner": "0200864ec36b",
+      "mtime": 1456073525229,
+      "ctime": 1456073525229,
+      "id": "0200864ec36b-0-led"
+    }
+  },
+  "TimeSync": {
+    "time": 1456075224658
+  }
+}

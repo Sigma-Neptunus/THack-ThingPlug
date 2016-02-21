@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var getmac = require('getmac').getMac(function (err, macAddr) {
+  if (err) {
+    console.log('Failure:', err);
+  } else {
+    console.log('Your MAC address is as below');
+    console.log(macAddr);
+  }
+});
+
