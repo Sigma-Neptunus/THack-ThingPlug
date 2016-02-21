@@ -1,9 +1,9 @@
 # ThinkPlug for T HackAThon 2nd
 
 ## Customizing Sensor List on Edison
-To edit sensor list, edit *app.js* and *edisonSensors.js*
+To edit sensor list, edit **app.js** and **edisonSensors.js**
 
-1. Declare sensor list in *app.js*
+1. Declare sensor list in **app.js**
 ```javascript
 DEVICE = [{
 	deviceAddress: device0Id,
@@ -31,7 +31,7 @@ DEVICE = [{
 }];
 ```
 
-2. Control sensors in *edisonSensors.js*
+2. Control sensors in **edisonSensors.js**
 ```javascript
 board.on('ready', function() {
 	...
@@ -74,7 +74,7 @@ _.each(['button', 'touch'], function (sname) {
 ...
 ```
 
-3. Reboot or restart *tp.sh* and *driver.sh*
+3. Reboot or restart **tp.sh** and **driver.sh**
 ```
 cd <path-to-tp-directory>(Usually /opt/tp/)
 ps | grep app
