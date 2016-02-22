@@ -1,4 +1,5 @@
 # ThinkPlug for T HackAThon 2nd
+Team2 Neptunus
 
 ## Customizing Sensor List on Edison
 To edit sensor list, edit **app.js** and **edisonSensors.js**
