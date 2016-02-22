@@ -1,4 +1,4 @@
-# ThinkPlug for T HackAThon 2nd
+# ThingPlug for T HackAThon 2nd
 Team2 Neptunus
 
 ## Customizing Sensor List on Edison
