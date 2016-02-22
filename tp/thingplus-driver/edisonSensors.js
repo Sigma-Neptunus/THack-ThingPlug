@@ -33,7 +33,7 @@ function EdisonSensors() {
     var sensors = self.sensors;
 
     sensors.light = { instance: new five.Sensor('A0') };
-    //sensors.sound = { instance: new five.Sensor('A1') };
+    Ssensors.sound = { instance: new five.Sensor('A1') };
     sensors.soilMoisture = { instance: new five.Sensor('A1') };
     sensors.rotary = { instance: new five.Sensor('A2') };
     //sensors.vibration = { instance: new five.Sensor('A2') };
@@ -110,7 +110,7 @@ function EdisonSensors() {
 
     // series
     //_.each(['sound', 'light', 'rotary', 'temperature'], // 'vibration'
-    _.each(['soilMoisture', 'light', 'rotary', 'temperature'], // 'vibration'
+    _.each(['sound', 'soilMoisture', 'light', 'rotary', 'temperature'], // 'vibration'
       function (sname) {
         sensors[sname].instance.on('data', function(err, data) {
           if (sname === 'temperature') {

@@ -42,14 +42,12 @@ DEVICES = [{
   deviceAddress: device0Id,
   sensors: [
     // Analog
-    /*
     { //series
       id: [device0Id, 'sound'].join('-'),
       type: 'noise',
       name: 'sound',
       notification: false
     },
-    */
     { //series
       id: [device0Id, 'soilMoisture'].join('-'),
       type: 'humidity',
